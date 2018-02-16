@@ -7,5 +7,32 @@ fi
 
 # User specific environment and startup programs
 
-export PATH
-export PS1
+
+# Prompt
+export PS1="\W "
+
+# Colors
+export CLICOLOR=1;
+export LSCOLORS=exfxcxdxbxegedabagacad;
+
+# z
+. ~/.z.sh
+
+
+
+
+
+
+
+#Alias 
+
+# a better 'git log'
+alias git="git "
+alias lg="lg1"
+
+# a better 'ls'
+alias lss="ls -lt"
+
+# a better 'git commit'
+alias g="git commit && git push"
+
