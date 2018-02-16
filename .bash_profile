@@ -34,5 +34,5 @@ alias lg="lg1"
 alias lss="ls -lt"
 
 # a better 'git commit'
-alias g="git commit && git push"
+alias g="git commit -a && git push"
 
