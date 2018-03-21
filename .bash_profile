@@ -36,3 +36,5 @@ alias lss="ls -lt"
 # a better 'git commit'
 alias g="git commit -a && git push"
 
+#Easy shortcuts
+alias now="cd ~/Google\ Drive/College/2018\ Spring"
