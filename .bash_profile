@@ -38,3 +38,4 @@ alias g="git commit -a && git push"
 
 #Easy shortcuts
 alias now="cd ~/Google\ Drive/College/2018\ Spring"
+alias 314="cd ~/Google\ Drive/College/2018\ Spring/314-ICS"
