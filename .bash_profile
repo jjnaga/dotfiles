@@ -7,9 +7,10 @@ fi
 
 # User specific environment and startup programs
 
+#Gets 
+export PS1='\$ '
 
-# Prompt
-export PS1="\W "
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home"
 
 # Colors
 export CLICOLOR=1;
@@ -28,13 +29,18 @@ export LSCOLORS=exfxcxdxbxegedabagacad;
 
 # a better 'git log'
 alias git="git "
-alias lg="lg1"
+alias lg="log --all --branches --oneline --graph --tags"
+
+# a better 'git commit'
+alias g="git add -A && git commit -a && git push"
+
+# a faster 'git notes add'
+# alias gn="git notes add"
 
 # a better 'ls'
 alias lss="ls -lt"
 
-# a better 'git commit'
-alias g="git commit -a && git push"
+
 
 #Easy shortcuts
 alias now="cd ~/Google\ Drive/College/2018\ Spring"
