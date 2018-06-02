@@ -1,35 +1,53 @@
 {
-    "window.zoomLevel": 1,
-    "workbench.activityBar.visible": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.visible": true,
-    "editor.minimap.enabled": false,
-    "python.linting.pylintEnabled": false,
-    // Team tab
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#1A1A1A",
-        "statusBar.noFolderBackground": "#212121",
-        "statusBar.debuggingBackground": "#263238"
-    },
-    "workbench.sideBar.location": "left",
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/node_modules": true,
-        ".gitignore": true,
-        "**/.vscode": true,
-        "**/.meteor": true,
-        "**/package*.json": true,
-    },
-    "explorer.confirmDelete": false,
-    "editor.wordWrap": "on",
-    "workbench.colorTheme": "One Dark (Sublime)",
-    // Prettier Settings
-    "editor.formatOnSave": true,
+	"window.zoomLevel": 1,
+	"workbench.activityBar.visible": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.statusBar.visible": true,
+	"editor.minimap.enabled": false,
+	"python.linting.pylintEnabled": false,
+	// Team tab
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"explorer.confirmDragAndDrop": false,
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#1A1A1A",
+		"statusBar.noFolderBackground": "#212121",
+		"statusBar.debuggingBackground": "#263238"
+	},
+	"workbench.sideBar.location": "left",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		".gitignore": true,
+		"**/.vscode": true,
+		"**/.meteor": true,
+	},
+	"explorer.confirmDelete": false,
+	// "editor.wordWrap": "wordWrapColumn",
+	"workbench.colorTheme": "One Dark (Sublime)",
+	// Prettier Settings
+	"editor.formatOnSave": true,
+	"javascript.format.enable": true,
+	"prettier.eslintIntegration": false,
+	"prettier.bracketSpacing": true,
+	"prettier.semi": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "all",
+	"prettier.disableLanguages": [
+		".md"
+	],
+	"editor.rulers": [
+		80
+	],
+	"rewrap.autoWrap.enabled": true,
+	"rewrap.wrappingColumn": 80,
+	"editor.multiCursorModifier": "ctrlCmd",
+	// "editor.wordWrapColumn": 120,
+	// "editor.renderWhitespace": "all",
+	// "editor.renderControlCharacters": true,
 }

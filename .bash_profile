@@ -8,7 +8,7 @@ fi
 # User specific environment and startup programs
 
 #Gets 
-export PS1='\$ '
+export PS1='\n\w\n\$ '
 
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home"
 
