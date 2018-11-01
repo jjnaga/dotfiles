@@ -1,5 +1,4 @@
-# .bash_profile
-
+# .bash_profile 
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
@@ -21,7 +20,7 @@ export LSCOLORS=exfxcxdxbxegedabagacad;
 
 
 
-
+alias compileg++=" g++ -g -O2 -std=gnu++14"
 
 
 
@@ -41,7 +40,14 @@ alias g="git add -A && git commit -a && git push"
 alias lss="ls -lt"
 
 
+# Linux computer at home
+alias ssh1="ssh -i ~/.ssh/ubuntu naga@76.173.230.98 -L 8888:localhost:32400"
+
+# Seedbox 
+alias ssh2="ssh zoggdog08@185.107.81.123"
+
+
 
 #Easy shortcuts
-alias now="cd ~/Google\ Drive/College/2018\ Spring"
+alias now="cd ~/Google\ Drive/College/2018\ Fall"
 alias 314="cd ~/Google\ Drive/College/2018\ Spring/314-ICS"
